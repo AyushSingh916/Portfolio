@@ -11,6 +11,8 @@ darkModeButton.addEventListener("click", () => {
   }
 });
 
+
+
 document.getElementById("emailButton").addEventListener("click", function() {
   var myEmail = "ayushsingh916@gmail.com";
   var emailSubject = "Hello from my website!";
