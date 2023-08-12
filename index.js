@@ -11,15 +11,17 @@ darkModeButton.addEventListener("click", () => {
   }
 });
 
-
-
-document.getElementById("emailButton").addEventListener("click", function() {
+document.getElementById("emailButton").addEventListener("click", function () {
   var myEmail = "ayushsingh916@gmail.com";
   var emailSubject = "Hello from my website!";
   var emailBody = "Write your message here...";
 
-  var mailtoLink = "mailto:" + encodeURIComponent(myEmail) +
-                   "?subject=" + encodeURIComponent(emailSubject) +
-                   "&body=" + encodeURIComponent(emailBody);
+  var mailtoLink =
+    "mailto:" +
+    encodeURIComponent(myEmail) +
+    "?subject=" +
+    encodeURIComponent(emailSubject) +
+    "&body=" +
+    encodeURIComponent(emailBody);
   window.open(mailtoLink, "_blank");
 });

@@ -1,6 +1,6 @@
 .dark-mode {
-  background-color: #222;
-  color: #fff;
+  background-color: #222 !important;
+  color: #fff !important;
 }
 
 .light-mode {
@@ -8,8 +8,22 @@
   color: #000;
 }
 
-.bg-body-tertiary {
-  background-color: #222;
+.dark-mode #center {
+  background-color: #0c0c0c ;
+  color: #fff;
+}
+
+.dark-mode #DText {
+  color: #fff !important;
+}
+
+.dark-mode #dark-project {
+  background-color: #0c0c0c ;
+  color: whitesmoke;
+}
+
+.dark-mode #outer-center {
+  background-color: #222 !important;
 }
 
 .icon-square {
