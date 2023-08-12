@@ -9,7 +9,7 @@
 }
 
 .dark-mode #center {
-  background-color: #373b3e;
+  background-color: #373b3e !important;
   color: white;
   border-radius: 0.5%;
 }
