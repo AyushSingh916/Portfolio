@@ -10,7 +10,8 @@
 
 .dark-mode #center {
   background-color: #373b3e;
-  color: #fff;
+  color:black;
+  border-radius: 0.5%;
 }
 
 .dark-mode #DText {
@@ -24,6 +25,10 @@
 
 .dark-mode #outer-center {
   background-color: #222 !important;
+}
+
+#center {
+  background-color: #c4c4c4 !important;
 }
 
 .icon-square {
