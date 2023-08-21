@@ -1,13 +1,16 @@
 const darkModeButton = document.getElementById("darkMode");
 const body = document.querySelector("body");
+const darkModeIcon = document.getElementById("Dark-Mode-Icon"); // Added variable for the dark mode icon link
 
 darkModeButton.addEventListener("click", () => {
   const currentClass = body.className;
 
   if (currentClass === "dark-mode") {
     body.className = "light-mode";
+    darkModeIcon.innerHTML = '<i class="fas fa-moon"></i> Dark Mode'; // Change the icon and text
   } else {
     body.className = "dark-mode";
+    darkModeIcon.innerHTML = '<i class="fas fa-sun"></i> Light Mode'; // Change the icon and text
   }
 });
 
